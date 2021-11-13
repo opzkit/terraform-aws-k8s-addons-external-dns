@@ -1,4 +1,4 @@
-# terraform-aws-k8s-addons-external-secrets
+# terraform-aws-k8s-addons-external-dns
 
 A terraform module which provides
 the [IRSA external permissions](https://kops.sigs.k8s.io/cluster_spec/#service-account-issuer-discovery-and-aws-iam-roles-for-service-accounts-irsa)
