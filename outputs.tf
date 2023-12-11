@@ -18,7 +18,8 @@ output "permissions" {
         "Effect": "Allow",
         "Action": [
           "route53:ListHostedZones",
-          "route53:ListResourceRecordSets"
+          "route53:ListResourceRecordSets",
+          "route53:ListTagsForResource"
         ],
         "Resource": [
           "*"
@@ -34,7 +35,7 @@ output "permissions" {
 output "addon" {
   value = {
     name : "external-dns"
-    version : "0.13.1"
+    version : "0.14.0"
     content : local.yaml
   }
 }
