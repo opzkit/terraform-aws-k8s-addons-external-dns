@@ -26,6 +26,7 @@ module "external_dns" {
   source     = "../.."
   account_id = local.account_id
   name       = local.name
+  txt_prefix = "prefix"
   region     = local.region
 }
 
