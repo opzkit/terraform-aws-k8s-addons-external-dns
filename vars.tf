@@ -12,3 +12,9 @@ variable "account_id" {
   type        = string
   description = "The AWS account id which owns the Route53 zone"
 }
+
+variable "txt_prefix" {
+  type        = string
+  default     = ""
+  description = "The prefix to use for TXT records"
+}

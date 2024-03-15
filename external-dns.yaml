@@ -62,6 +62,7 @@ spec:
         - --aws-zone-type=public
         - --registry=txt
         - --txt-owner-id=${name}
+        - --txt-prefix=${prefix}
         env:
         - name: AWS_DEFAULT_REGION
           value: "${region}"
