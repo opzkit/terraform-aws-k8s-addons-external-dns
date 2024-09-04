@@ -35,7 +35,7 @@ output "permissions" {
 output "addon" {
   value = {
     name : "external-dns"
-    version : "0.14.0"
+    version : local.version
     content : local.yaml
   }
 }
