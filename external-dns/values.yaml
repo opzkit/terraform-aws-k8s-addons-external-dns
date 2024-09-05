@@ -6,3 +6,5 @@ txtOwnerId: '${name}'
 txtPrefix: '${prefix}'
 extraArgs:
 - --aws-zone-type=public
+image:
+  tag: 'v0.14.0'
