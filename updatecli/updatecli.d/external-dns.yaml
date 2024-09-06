@@ -81,4 +81,4 @@ actions:
       draft: false
       labels:
       - "dependencies"
-      title: "Update External DNS version"
+      title: "chore(deps): update External DNS version"
