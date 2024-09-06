@@ -49,6 +49,7 @@ targets:
     scmid: github
     dependson:
     - module_version
+    - image
     - chart
     dependsonchange: true
     disablesourceinput: true
