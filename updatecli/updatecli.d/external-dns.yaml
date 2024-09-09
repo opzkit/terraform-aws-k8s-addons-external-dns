@@ -78,7 +78,9 @@ actions:
     scmid: "github"
     spec:
       automerge: true
+      mergemethod: squash
+      usetitleforautomerge: true
       draft: false
       labels:
       - "dependencies"
-      title: "Update External DNS version"
+      title: "chore(deps): update External DNS version"
