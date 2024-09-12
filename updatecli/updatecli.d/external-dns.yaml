@@ -48,13 +48,18 @@ targets:
     kind: shell
     scmid: github
     dependson:
-    - module_version
-    - image
-    - chart
+    - "module_version:or"
+    - "image:or"
+    - "chart:or"
     dependsonchange: true
     disablesourceinput: true
     spec:
-      command: "rm -rf external-dns/charts && kubectl kustomize . -o external-dns.yaml --enable-helm && git diff --shortstat external-dns.yaml"
+      command: "rm -rf external-dns/charts && kubectl kustomize . -o external-dns.yaml --enable-helm"
+      changedif:
+        kind: file/checksum
+        spec:
+          files:
+          - external-dns.yaml
       environments:
       - name: PATH
 
