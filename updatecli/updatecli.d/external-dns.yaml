@@ -15,7 +15,7 @@ sources:
 
 targets:
   chart:
-    name: bump chart version
+    name: bump chart version to {{ source "lastRelease" }}
     kind: yaml
     scmid: github
     sourceid: lastRelease
@@ -26,7 +26,7 @@ targets:
     - addprefix: "'"
     - addsuffix: "'"
   image:
-    name: bump image version
+    name: bump image version to {{ source "lastImageRelease" }}
     kind: yaml
     scmid: github
     sourceid: lastImageRelease
@@ -34,7 +34,7 @@ targets:
       file: 'external-dns/values.yaml'
       key: '$.image.tag'
   module_version:
-    name: bump module version
+    name: bump module version to {{ source "lastImageRelease" }}
     kind: hcl
     scmid: github
     sourceid: lastImageRelease
@@ -88,4 +88,4 @@ actions:
       draft: false
       labels:
       - "dependencies"
-      title: "chore(deps): update External DNS version"
+      title: 'chore(deps): update External DNS version to {{ source "lastImageRelease" }}'
