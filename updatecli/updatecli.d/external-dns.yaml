@@ -26,7 +26,7 @@ targets:
     - addprefix: "'"
     - addsuffix: "'"
   image:
-    name: Bump image version
+    name: bump image version
     kind: yaml
     scmid: github
     sourceid: lastImageRelease
