@@ -5,4 +5,3 @@ the [IRSA external permissions](https://kops.sigs.k8s.io/cluster_spec/#service-a
 and the [custom addon](https://kops.sigs.k8s.io/addons/#custom-addons)
 for [external-dns](https://github.com/kubernetes-sigs/external-dns) to be used together
 with [opzkit/k8s/aws](https://registry.terraform.io/modules/opzkit/k8s/aws/latest).
-
