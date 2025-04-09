@@ -15,7 +15,7 @@ terraform {
   required_providers {
     kops = {
       source  = "terraform-kops/kops"
-      version = "1.31.0"
+      version = "~> 1.31"
     }
 
     aws = {
@@ -23,5 +23,5 @@ terraform {
       version = "~> 5.0"
     }
   }
-  required_version = ">= 1.1.9"
+  required_version = ">= 1.3"
 }
