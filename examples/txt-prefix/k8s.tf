@@ -31,12 +31,12 @@ module "external_dns" {
 }
 
 module "state_store" {
-  source           = "git@github.com:opzkit/terraform-aws-kops-state-store?ref=v0.5.0"
+  source           = "github.com/opzkit/terraform-aws-kops-state-store?ref=v0.5.0"
   state_store_name = "some-kops-storage-s3-bucket"
 }
 
 module "k8s-network" {
-  source              = "git@github.com:opzkit/terraform-aws-k8s-network?ref=v0.1.0"
+  source              = "github.com/opzkit/terraform-aws-k8s-network?ref=v0.1.0"
   name                = local.name
   region              = local.region
   public_subnet_zones = ["a", "b", "c"]
@@ -45,7 +45,7 @@ module "k8s-network" {
 
 module "k8s" {
   depends_on         = [module.state_store]
-  source             = "git@github.com:opzkit/terraform-aws-k8s?ref=v0.19.0"
+  source             = "github.com/opzkit/terraform-aws-k8s?ref=v0.19.0"
   name               = local.name
   region             = local.region
   dns_zone           = local.zone
