@@ -19,6 +19,11 @@ jobs:
           rm *
       - name: Checkout code
         uses: actions/checkout@v4
+      - name: Start LocalStack
+        uses: LocalStack/setup-localstack@v0.2.3
+        with:
+          image-tag: 'latest'
+          install-awslocal: 'true'
       - name: Validate examples terraform v${{ matrix.tf-version }}
         run: make examples
   build:
