@@ -31,14 +31,12 @@ module "external_dns" {
 }
 
 module "state_store" {
-  source           = "opzkit/kops-state-store/aws"
-  version          = "0.0.2"
+  source           = "github.com/opzkit/terraform-aws-kops-state-store?ref=v0.5.0"
   state_store_name = "some-kops-storage-s3-bucket"
 }
 
 module "k8s-network" {
-  source              = "opzkit/k8s-network/aws"
-  version             = "0.0.5"
+  source              = "github.com/opzkit/terraform-aws-k8s-network?ref=v0.1.0"
   name                = local.name
   region              = local.region
   public_subnet_zones = ["a", "b", "c"]
@@ -47,19 +45,17 @@ module "k8s-network" {
 
 module "k8s" {
   depends_on         = [module.state_store]
-  source             = "opzkit/k8s/aws"
-  version            = "0.2.0"
+  source             = "github.com/opzkit/terraform-aws-k8s?ref=v0.19.0"
   name               = local.name
   region             = local.region
   dns_zone           = local.zone
   kubernetes_version = "1.21.5"
   master_count       = 3
-  vpc_id             = module.k8s-network.vpc_id
+  vpc_id             = module.k8s-network.vpc.id
   public_subnet_ids  = module.k8s-network.public_subnets
-  iam_role_name      = aws_iam_role.kubernetes_admin.arn
+  iam_role_mappings  = {}
   bucket_state_store = module.state_store.bucket
   admin_ssh_key      = "../dummy_ssh_private"
-  aws_oidc_provider  = true
   service_account_external_permissions = [
     module.external_dns.permissions
   ]
