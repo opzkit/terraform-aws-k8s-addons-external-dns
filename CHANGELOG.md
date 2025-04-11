@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.16.3](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/compare/v0.16.2...v0.16.3) (2025-04-11)
+
+
+### Miscellaneous Chores
+
+* **deps:** update terraform github.com/opzkit/terraform-aws-k8s-network to v0.1.1 ([#58](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/58)) ([083cdf8](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/083cdf8aa4153b64e2928daf82d1670a7d34dbac))
+
 ## [0.16.2](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/compare/v0.16.1...v0.16.2) (2025-04-11)
 
 
