@@ -22,9 +22,6 @@ targets:
     spec:
       file: 'external-dns/kustomization.yaml'
       key: '$.helmCharts[0].version'
-    transformers:
-    - addprefix: "'"
-    - addsuffix: "'"
   image:
     name: bump image version to {{ source "lastImageRelease" }}
     kind: yaml
