@@ -7,4 +7,4 @@ txtPrefix: '${prefix}'
 extraArgs:
 - --aws-zone-type=public
 image:
-  tag: v0.16.1
+  tag: v0.17.0
