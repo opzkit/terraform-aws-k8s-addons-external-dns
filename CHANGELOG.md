@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.17.1](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/compare/v0.17.0...v0.17.1) (2025-05-17)
+
+
+### Miscellaneous Chores
+
+* remove unnecessary work flow for release please ([#71](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/71)) ([0218c1c](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/0218c1cd2034b75cc0871c0776b30873483a55bf))
+
 ## [0.17.0](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/compare/v0.16.2...v0.17.0) (2025-05-15)
 
 
