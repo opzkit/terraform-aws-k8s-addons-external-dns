@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.17.1](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/compare/v0.17.0...v0.17.1) (2025-06-18)
+
+
+### Miscellaneous Chores
+
+* **deps:** update External DNS version to v0.17.0 ([#78](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/78)) ([218591f](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/218591f8ae339ce3ef72bffa242264f6d247ea19))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.99.1 ([#74](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/74)) ([4428c9c](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/4428c9cbcc030fad4cd8c2b466527f514acf9a4b))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.99.2 ([#75](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/75)) ([08d2ff4](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/08d2ff4af9a11f9ab5d3fe7fd52e96f80a75e1fa))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.99.3 ([#76](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/76)) ([fa1318f](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/fa1318f3fcf23e8cdef8e64d58660663b1f73bdb))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.99.4 ([#77](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/77)) ([6734475](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/67344757c12de3bebbd73a2413db1cd09066aa56))
+* remove unnecessary work flow for release please ([#71](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/71)) ([0218c1c](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/0218c1cd2034b75cc0871c0776b30873483a55bf))
+
 ## [0.17.0](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/compare/v0.16.2...v0.17.0) (2025-05-15)
 
 
