@@ -16,6 +16,9 @@ spec:
   - name: v1alpha1
     schema:
       openAPIV3Schema:
+        description: |-
+          DNSEndpoint is a contract that a user-specified CRD must implement to be used as a source for external-dns.
+          The user-specified CRD should also have the status sub-resource.
         properties:
           apiVersion:
             description: |-
@@ -105,8 +108,8 @@ metadata:
     app.kubernetes.io/instance: external-dns
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: external-dns
-    app.kubernetes.io/version: 0.16.1
-    helm.sh/chart: external-dns-1.16.1
+    app.kubernetes.io/version: 0.17.0
+    helm.sh/chart: external-dns-1.17.0
   name: external-dns
   namespace: kube-system
 ---
@@ -117,8 +120,8 @@ metadata:
     app.kubernetes.io/instance: external-dns
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: external-dns
-    app.kubernetes.io/version: 0.16.1
-    helm.sh/chart: external-dns-1.16.1
+    app.kubernetes.io/version: 0.17.0
+    helm.sh/chart: external-dns-1.17.0
   name: external-dns
 rules:
 - apiGroups:
@@ -162,8 +165,8 @@ metadata:
     app.kubernetes.io/instance: external-dns
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: external-dns
-    app.kubernetes.io/version: 0.16.1
-    helm.sh/chart: external-dns-1.16.1
+    app.kubernetes.io/version: 0.17.0
+    helm.sh/chart: external-dns-1.17.0
   name: external-dns-viewer
 roleRef:
   apiGroup: rbac.authorization.k8s.io
@@ -181,8 +184,8 @@ metadata:
     app.kubernetes.io/instance: external-dns
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: external-dns
-    app.kubernetes.io/version: 0.16.1
-    helm.sh/chart: external-dns-1.16.1
+    app.kubernetes.io/version: 0.17.0
+    helm.sh/chart: external-dns-1.17.0
   name: external-dns
   namespace: kube-system
 spec:
@@ -203,8 +206,8 @@ metadata:
     app.kubernetes.io/instance: external-dns
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: external-dns
-    app.kubernetes.io/version: 0.16.1
-    helm.sh/chart: external-dns-1.16.1
+    app.kubernetes.io/version: 0.17.0
+    helm.sh/chart: external-dns-1.17.0
   name: external-dns
   namespace: kube-system
 spec:
