@@ -32,10 +32,10 @@ output "permissions" {
 
 }
 
-output "addon" {
-  value = {
+output "addons" {
+  value = [{
     name : "external-dns"
     version : local.version
     content : local.yaml
-  }
+  }]
 }

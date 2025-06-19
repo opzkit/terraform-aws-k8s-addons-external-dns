@@ -58,7 +58,5 @@ module "k8s" {
   service_account_external_permissions = [
     module.external_dns.permissions
   ]
-  extra_addons = [
-    module.external_dns.addon
-  ]
+  extra_addons = module.external_dns.addons
 }
