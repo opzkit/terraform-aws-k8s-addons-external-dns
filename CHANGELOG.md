@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.0.0](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/compare/v0.17.2...v1.0.0) (2025-06-19)
+
+
+### ⚠ BREAKING CHANGES
+
+* rename output for consistency ([#81](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/81))
+
+### Bug Fixes
+
+* rename output for consistency ([#81](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/81)) ([8897a33](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/8897a33053b9e3d97ed3655dc50c0a607f17083a))
+
 ## [0.17.2](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/compare/v0.17.1...v0.17.2) (2025-06-19)
 
 
