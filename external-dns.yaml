@@ -108,8 +108,8 @@ metadata:
     app.kubernetes.io/instance: external-dns
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: external-dns
-    app.kubernetes.io/version: 0.17.0
-    helm.sh/chart: external-dns-1.17.0
+    app.kubernetes.io/version: 0.18.0
+    helm.sh/chart: external-dns-1.18.0
   name: external-dns
   namespace: kube-system
 ---
@@ -120,8 +120,8 @@ metadata:
     app.kubernetes.io/instance: external-dns
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: external-dns
-    app.kubernetes.io/version: 0.17.0
-    helm.sh/chart: external-dns-1.17.0
+    app.kubernetes.io/version: 0.18.0
+    helm.sh/chart: external-dns-1.18.0
   name: external-dns
 rules:
 - apiGroups:
@@ -143,7 +143,14 @@ rules:
   - ""
   resources:
   - services
-  - endpoints
+  verbs:
+  - get
+  - watch
+  - list
+- apiGroups:
+  - discovery.k8s.io
+  resources:
+  - endpointslices
   verbs:
   - get
   - watch
@@ -165,8 +172,8 @@ metadata:
     app.kubernetes.io/instance: external-dns
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: external-dns
-    app.kubernetes.io/version: 0.17.0
-    helm.sh/chart: external-dns-1.17.0
+    app.kubernetes.io/version: 0.18.0
+    helm.sh/chart: external-dns-1.18.0
   name: external-dns-viewer
 roleRef:
   apiGroup: rbac.authorization.k8s.io
@@ -184,8 +191,8 @@ metadata:
     app.kubernetes.io/instance: external-dns
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: external-dns
-    app.kubernetes.io/version: 0.17.0
-    helm.sh/chart: external-dns-1.17.0
+    app.kubernetes.io/version: 0.18.0
+    helm.sh/chart: external-dns-1.18.0
   name: external-dns
   namespace: kube-system
 spec:
@@ -206,8 +213,8 @@ metadata:
     app.kubernetes.io/instance: external-dns
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: external-dns
-    app.kubernetes.io/version: 0.17.0
-    helm.sh/chart: external-dns-1.17.0
+    app.kubernetes.io/version: 0.18.0
+    helm.sh/chart: external-dns-1.18.0
   name: external-dns
   namespace: kube-system
 spec:
@@ -241,7 +248,7 @@ spec:
         env:
         - name: AWS_REGION
           value: ${region}
-        image: registry.k8s.io/external-dns/external-dns:v0.17.0
+        image: registry.k8s.io/external-dns/external-dns:v0.18.0
         imagePullPolicy: IfNotPresent
         livenessProbe:
           failureThreshold: 2
