@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.2](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/compare/v1.0.1...v1.0.2) (2025-08-12)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v5 ([#96](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/96)) ([6472f3f](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/6472f3f27f90eb40388079b8b9ae2f843dc65c4f))
+* **deps:** update actions/create-github-app-token digest to 0f859bf ([#92](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/92)) ([c7c4f5e](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/c7c4f5e08cd71c89ac47989d485498ee14c54aa5))
+* **deps:** update actions/create-github-app-token digest to a8d6161 ([#97](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/97)) ([97c71a2](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/97c71a224a0bc8847788155e37ced913de35e46e))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.100.0 ([#90](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/90)) ([ed366f9](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/ed366f92dfa30e0c35e611321bfb56b1d2df265e))
+* **deps:** update pre-commit hook pre-commit/pre-commit-hooks to v6 ([#93](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/93)) ([a950e1a](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/a950e1abbcf5d537857b2f66f4554c1d3d644c17))
+* **deps:** update terraform-linters/setup-tflint action to v5 ([#98](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/98)) ([81a7931](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/81a7931d2e83789ab7bd6d5216d9255f7f2656e8))
+
 ## [1.0.1](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/compare/v1.0.0...v1.0.1) (2025-07-16)
 
 
