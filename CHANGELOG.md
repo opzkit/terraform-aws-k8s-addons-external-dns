@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/compare/v1.0.2...v1.0.3) (2025-09-04)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/setup-python action to v6 ([#103](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/103)) ([4cbac11](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/4cbac11adfa7267d674f3d736e6c5e4f43b8d050))
+
 ## [1.0.2](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/compare/v1.0.1...v1.0.2) (2025-09-03)
 
 
