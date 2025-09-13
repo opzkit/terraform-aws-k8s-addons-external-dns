@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.0.3](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/compare/v1.0.2...v1.0.3) (2025-09-13)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/create-github-app-token digest to 6701853 ([#106](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/106)) ([f9f426a](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/f9f426aad0c21ad4b464cbd026ec7a004795b0da))
+* **deps:** update actions/setup-python action to v6 ([#103](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/103)) ([4cbac11](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/4cbac11adfa7267d674f3d736e6c5e4f43b8d050))
+* **deps:** update External DNS version to v0.19.0 ([#105](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/105)) ([0b719b3](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/0b719b3d0ea9c1ea2c6a08eea3a1e1deef6677ae))
+
 ## [1.0.2](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/compare/v1.0.1...v1.0.2) (2025-09-03)
 
 
