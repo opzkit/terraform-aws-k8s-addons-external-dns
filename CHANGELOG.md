@@ -1,5 +1,45 @@
 # Changelog
 
+## [1.0.4](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/compare/v1.0.3...v1.0.4) (2026-02-18)
+
+
+### Bug Fixes
+
+* specify helm version in updatecli workflow ([#163](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/163)) ([32d5e10](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/32d5e1081d7a0425afa18d68eaeae3850bb6d094))
+* use floor version constraints for provider versions ([#178](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/178)) ([70f6175](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/70f617511facd9d73f42d63a38a446daaffeaed3))
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v5.0.1 ([#152](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/152)) ([c1735dd](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/c1735ddba7127d4d456238a5a28e0a56744e5c1a))
+* **deps:** update actions/checkout action to v6 ([#154](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/154)) ([b19ea1a](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/b19ea1a26e68f4ebf3444b3e92e8b3cb01e111d2))
+* **deps:** update actions/checkout action to v6.0.1 ([#159](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/159)) ([7a955c6](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/7a955c65fa64db007cbc69f6dc1c5a25316d969a))
+* **deps:** update actions/checkout action to v6.0.2 ([#173](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/173)) ([1cecdec](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/1cecdecc20ba6da452cc9f40b766c395a016b8ed))
+* **deps:** update actions/checkout digest to 8e8c483 ([#158](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/158)) ([a1460a0](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/a1460a02beff390806cbcfed3c7d6077e9b4b401))
+* **deps:** update actions/checkout digest to 93cb6ef ([#151](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/151)) ([375f861](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/375f861bb153932c7f43f985b05fccfe97f62383))
+* **deps:** update actions/checkout digest to de0fac2 ([#176](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/176)) ([9b48f1d](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/9b48f1daa4c7b2cb54c834e56bec63003e30e0e3))
+* **deps:** update actions/create-github-app-token digest to 29824e6 ([#160](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/160)) ([4a09d51](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/4a09d511e5eb0b397dda8e5396635103673d4bf8))
+* **deps:** update actions/create-github-app-token digest to 7e473ef ([#155](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/155)) ([4a91266](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/4a912664bfeba05b3b5566a7a41c91a2d81e5604))
+* **deps:** update actions/setup-python action to v6.1.0 ([#156](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/156)) ([feb16d8](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/feb16d8cb4d4d799a822576bd072cff5ab20e4ef))
+* **deps:** update actions/setup-python action to v6.2.0 ([#172](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/172)) ([6971136](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/6971136ef23dea29608ad5c55501f7c578a9f79e))
+* **deps:** update External DNS version to v0.20.0 ([#165](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/165)) ([bdddd95](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/bdddd953f093b6c2e4195a80cc6aa44543e95c75))
+* **deps:** update localstack/setup-localstack action to v0.2.5 ([#177](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/177)) ([e4c7cdb](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/e4c7cdb1685a0639644b0179cac141a91f2d09fd))
+* **deps:** update pre-commit hook alessandrojcm/commitlint-pre-commit-hook to v9.24.0 ([#170](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/170)) ([156275e](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/156275efe7f44d6c9a0a09b6aa88d455e4b1c369))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.104.0 ([#153](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/153)) ([99c93e7](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/99c93e727dc390b6935b8d16ba7f0c0fa65f20da))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.104.1 ([#166](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/166)) ([06754bb](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/06754bb22a2de226b0ee3c16404539a32483ba00))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.105.0 ([#168](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/168)) ([4980225](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/49802253d2eca6d3902c0b475dd20556f2a6ff64))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.173.1 ([#148](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/148)) ([a5b99c9](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/a5b99c9cb51fb34f78f5383f4f00f19bc3307058))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v42 ([#149](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/149)) ([d66588a](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/d66588a75b6199ebb2434b3d458dfc76476f984f))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v42.27.0 ([#157](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/157)) ([bea9315](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/bea9315d95256c10601e0ccbc24102550c96ea0b))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v42.39.2 ([#161](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/161)) ([e456f0b](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/e456f0beebec540708c5789945533111dafab557))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v42.52.8 ([#162](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/162)) ([d90e5b0](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/d90e5b0bb3df7653a1543d4f4ab1465320abd11a))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v42.64.1 ([#164](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/164)) ([8eb0a53](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/8eb0a535385cac570fe4665514251757704c31cc))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v42.71.0 ([#167](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/167)) ([f36ca32](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/f36ca32ccd4a8a5f26f36e50d94960166728cfaa))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v42.78.1 ([#169](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/169)) ([467139b](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/467139b99b5e106993fd4ae56d699ed0f663e448))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v42.84.0 ([#171](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/171)) ([549ae5a](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/549ae5aec8656dc95f2a57d75776f17c4c070541))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v42.95.1 ([#174](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/174)) ([d85fede](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/d85fedeace838997e3a5c38640318a918f69801b))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43 ([#175](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/175)) ([be8ae94](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/be8ae946b673eb7996fd4d58a4d616f77017455d))
+
 ## [1.0.3](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/compare/v1.0.2...v1.0.3) (2025-11-15)
 
 
