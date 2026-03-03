@@ -32,3 +32,5 @@ override.tf.json
 examples/**/.terraform.lock.hcl
 .idea
 external-dns/charts
+
+.external_modules
