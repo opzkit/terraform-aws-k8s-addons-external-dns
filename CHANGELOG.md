@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.0.5](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/compare/v1.0.4...v1.0.5) (2026-03-03)
+
+
+### Miscellaneous Chores
+
+* add MIT license to the project ([#183](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/183)) ([bf22835](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/bf228355ffc92aec85ea61a3dd3896c5f051881a))
+* **deps:** update hashicorp/setup-terraform action to v4 ([#182](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/182)) ([7c3633b](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/7c3633b958c807e5ee7cde44ec9314ae4966e821))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.31.1 ([#179](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/179)) ([851b72c](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/851b72cd2f503864a1b3e2b812441be913197535))
+
 ## [1.0.4](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/compare/v1.0.3...v1.0.4) (2026-02-18)
 
 
