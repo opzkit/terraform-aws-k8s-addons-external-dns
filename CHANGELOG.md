@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.7](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/compare/v1.0.6...v1.0.7) (2026-08-31)
+
+
+### Miscellaneous Chores
+
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.109.0 ([#240](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/240)) ([91796ed](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/91796ed4719abd485d9983a319e36bb7213f1f99))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v44.48.3 ([#242](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/242)) ([d2920b7](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/d2920b7653ada51838364b199b1ed3f32d32fa1b))
+
 ## [1.0.6](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/compare/v1.0.5...v1.0.6) (2026-08-21)
 
 
