@@ -1,5 +1,5 @@
 locals {
-  version = "0.22.0"
+  version = "0.23.0"
   yaml = templatefile("${path.module}/external-dns.yaml", {
     name       = var.name
     prefix     = var.txt_prefix
