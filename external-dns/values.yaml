@@ -7,5 +7,5 @@ txtPrefix: '${prefix}'
 extraArgs:
 - --aws-zone-type=public
 image:
-  tag: v0.22.0
+  tag: v0.23.0
 policy: upsert-only
