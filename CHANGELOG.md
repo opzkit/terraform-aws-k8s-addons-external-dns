@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.8](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/compare/v1.0.7...v1.0.8) (2026-09-24)
+
+
+### Miscellaneous Chores
+
+* **deps:** update pre-commit hook alessandrojcm/commitlint-pre-commit-hook to v9.27.0 ([#249](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/249)) ([3661c20](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/3661c205e22229a317c967f62004938f337d527a))
+
 ## [1.0.7](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/compare/v1.0.6...v1.0.7) (2026-09-20)
 
 
