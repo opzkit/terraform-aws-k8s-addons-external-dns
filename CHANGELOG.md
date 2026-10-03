@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.0.8](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/compare/v1.0.7...v1.0.8) (2026-10-03)
+
+
+### Miscellaneous Chores
+
+* **deps:** update External DNS version to v0.23.0 ([#251](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/251)) ([609f874](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/609f874d553410b253931ce220ae265982086976))
+* **deps:** update pre-commit hook alessandrojcm/commitlint-pre-commit-hook to v9.27.0 ([#249](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/249)) ([3661c20](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/3661c205e22229a317c967f62004938f337d527a))
+* **deps:** update terraform-linters/setup-tflint action to v6.3.2 ([#252](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/issues/252)) ([a1b03e4](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/commit/a1b03e486f10e30ae76c97d18ab345f71c9fe31f))
+
 ## [1.0.7](https://github.com/opzkit/terraform-aws-k8s-addons-external-dns/compare/v1.0.6...v1.0.7) (2026-09-20)
 
 
